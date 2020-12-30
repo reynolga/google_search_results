@@ -163,7 +163,8 @@ hr {
   height: 100%;
 }
 
-.people-ask-grid div, i {
+.people-ask-grid div, 
+.people-ask-grid i {
   box-sizing: border-box;
   border-top: 1px solid black;
 }
