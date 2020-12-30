@@ -1,3 +1,8 @@
+:root {
+  --gray: rgb(221, 219, 219);
+  --dark-gray: rgb(131, 130, 130);
+  --blue: rgb(33, 121, 221);
+}
 body {
   margin: 0px;
 }
@@ -35,7 +40,7 @@ body {
 
 .search-bar-area .search-area-input {                               
   height: 30px;  
-  width: 400px;
+  width: 600px;
   margin-left: 15px;
   border: none;
   background-color: transparent;
@@ -76,4 +81,29 @@ body {
 
 .search-bar-area .person-badge {
   margin-left: auto;
+}
+
+.tab {
+  margin-left: 180px;
+  margin-top: 20px; 
+   
+}
+
+.tab a{
+  text-decoration: none;
+  display: inline-block;
+  color:var(--dark-gray);
+  padding: 10px 10px;  
+}
+.tab .all {
+  color: var(--blue);
+  border-bottom: 4px solid var(--blue);
+}
+.tab .settings{
+  margin-left: 125px;
+}
+
+hr {
+  border:1px solid var(--gray);
+  margin: 0px;
 }
