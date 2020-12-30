@@ -129,7 +129,41 @@ hr {
 .search-result p, h2{
   margin: 3px;
 }
+
 .search-result a {
   text-decoration: none;
   color: rgb(105, 65, 236);
+}
+
+.people-ask-grid {
+  display: grid;
+  align-self: flex-start;
+  grid-template-columns: 300px 50px;
+  grid-template-rows: auto;
+  align-items: center;  
+  border: 1px solid black;
+}
+
+.people-ask-grid-header{
+  grid-column: 1/3;
+  padding: 5px 5px;
+}
+
+.people-ask-grid div{
+  box-sizing: border-box;
+  padding: 5px 5px;
+  width: 100%;
+  justify-self: start;
+}
+
+.people-ask-grid i {
+  box-sizing: border-box;
+  width: 100%;
+  justify-self: end;
+  height: 100%;
+}
+
+.people-ask-grid div, i {
+  box-sizing: border-box;
+  border-top: 1px solid black;
 }
