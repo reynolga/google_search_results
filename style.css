@@ -136,35 +136,39 @@ hr {
 }
 
 .people-ask-grid {
-  display: grid;
-  align-self: flex-start;
-  grid-template-columns: 300px 50px;
-  grid-template-rows: auto;
-  align-items: center;  
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  border: 1px solid var(--gray);
 }
 
 .people-ask-grid-header{
-  grid-column: 1/3;
-  padding: 5px 5px;
+  padding: 15px 15px;
+  font-size: 14pt;
 }
 
-.people-ask-grid div{
-  box-sizing: border-box;
-  padding: 5px 5px;
+.people-ask-grid-row {
+  display: flex;
   width: 100%;
-  justify-self: start;
+  flex-direction: row;
+  border-top: 1px solid var(--gray);
 }
 
-.people-ask-grid i {
+.people-ask-grid-row div{
   box-sizing: border-box;
-  width: 100%;
+  padding: 15px 15px;    
+  flex: 10;
+  font-size: 12pt;
+}
+
+.people-ask-grid-row i {
+  box-sizing: border-box;
   justify-self: end;
-  height: 100%;
+  align-self: center; 
+  flex: 0.5;
 }
 
 .people-ask-grid div, 
 .people-ask-grid i {
   box-sizing: border-box;
-  border-top: 1px solid black;
 }
