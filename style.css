@@ -157,18 +157,14 @@ hr {
 .people-ask-grid-row div{
   box-sizing: border-box;
   padding: 15px 15px;    
-  flex: 10;
+  flex: 20;
   font-size: 12pt;
 }
 
 .people-ask-grid-row i {
-  box-sizing: border-box;
-  justify-self: end;
+  box-sizing: border-box;  
   align-self: center; 
-  flex: 0.5;
+  flex: 1;
 }
 
-.people-ask-grid div, 
-.people-ask-grid i {
-  box-sizing: border-box;
-}
+
